@@ -17,3 +17,4 @@ async function mostrarPosts() {
 }
 
 mostrarPosts();
+// Fin de la funcion para mostrar publicaciones
