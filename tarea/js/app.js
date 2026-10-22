@@ -1,5 +1,6 @@
 async function mostrarPosts() {
   const lista = document.querySelector("#posts");
+ // Peticion a la API para obtener las publicaciones del usuario 1
   try {
     // 1. Haz el fetch a la URL de las publicaciones del usuario 1
     const respuesta = await fetch("https://jsonplaceholder.typicode.com/posts?userId=1");
